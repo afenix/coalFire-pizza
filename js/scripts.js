@@ -19,7 +19,7 @@ $(document).ready(function() {
 
    var inputtedSize = parseInt($("input#size").val());
    var inputtedFlavor = $("input#flavor").val();
-   var inputtedStyle = $('#style-id').val(); //no :selected here
+   var inputtedStyle = $('#style-id').val()
       $("#style-id").change(function() {
         inputtedStyle = $(this).val();
       });
@@ -28,7 +28,6 @@ $(document).ready(function() {
    newPizza.flavor = inputtedFlavor;
    newPizza.style = inputtedStyle;
    newPizza.slices(inputtedSize);
-// debugger;
 
    $("input#size").val("");
    $("input#flavor").val("");
