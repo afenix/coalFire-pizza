@@ -14,7 +14,6 @@ body {
   box-shadow: 5px 5px 2.5px #660000;
   padding: 15px;
   opacity: 0.9;
-  margin-top: 15px;
   float: right;
 }
 
@@ -24,7 +23,7 @@ body {
   border: 1px solid;
   border-radius: 15px;
   border-color: #8C873E;
-  width: 500px;
+  width: 700px;
   padding: 15px;
   opacity: 0.9;
   text-align: left;
