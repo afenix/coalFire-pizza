@@ -40,10 +40,11 @@ h3 {
 }
 
 h1 {
-  background: #660000;
+  background-image: url(../css/pizza_wallpaper.jpg);
+  font-family: 'Chewy', cursive;
   color: white;
-  border-radius: 15px;
   padding: 15px;
+  font-size: 500%
 }
 
 p {

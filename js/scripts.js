@@ -1,16 +1,16 @@
 var Pizza = {
-    size: 0,
-    flavor: "",
-    style: "",
-    slices: function () {
-        var numberSlice;
-        if ("Deep Dish" === this.style) {
-            var numberSlice = this.size - 6;
-        } else {
-            var numberSlice = this.size - 4;
-        }
-        return numberSlice;
-    }
+              size: 0,
+              flavor: "",
+              style: "",
+              slices: function () {
+                  var numberSlice;
+                  if ("Deep Dish" === this.style) {
+                      var numberSlice = this.size - 6;
+                  } else {
+                      var numberSlice = this.size - 4;
+                  }
+                  return numberSlice;
+              }
 };
 
 $(document).ready(function() {
