@@ -20,5 +20,10 @@ $(document).ready(function() {
    $("input#size").val("");
    $("input#flavor").val("");
 
+   $(".results").show();
+    $(".size").text(newPizza.size);
+    $(".flavor").text(newPizza.flavor);
+    $(".slices").text(newPizza.slices());
+
   });
 });

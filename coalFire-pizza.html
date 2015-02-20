@@ -1,48 +1,50 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel='stylesheet' href='css/bootstrap.css'>
-    <link rel="stylesheet" href="css/styles.css" type = "text/css">
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,400italic' rel='stylesheet' type='text/css'>
-    <script src="js/jquery-1.11.2.js"></script>
-    <script src="js/scripts.js"></script>
-    <title>Coal Fire Pizza</title>
-  </head>
-  <body>
-   <div class="container">
-     <div class="page-header">
-       <h1>Coal Fire Pizza <small>Pizza that's so good you can't even eat it</small></h1>
-     </div>
-
-     <div class="row">
-       <div class="col-sm-6">
-         <form id="pizza">
-           <h4>Let's calculate your slices, shall we?</h4>
-           <div class="form-group">
-             <label for="size" >What size of pie would you like?</label>
-             <input type="text" class="form-control" id="size" placeholder="eg. 10, 12 or 16">
-           </div>
-
-           <div class="form-group">
-             <label for="flavor">Would you like cheese or pepperoni?</label>
-              <input type="text" class="form-control" id="flavor" placeholder="eg. Cheese or Pepperoni">
-            </div>
-
-           <button type="submit" class="btn btn-danger">&#9044 How Many Slices?</button>
-
-         </form>
-       </div>
+<head>
+  <link rel='stylesheet' href='css/bootstrap.css'>
+  <link rel="stylesheet" href="css/styles.css" type = "text/css">
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,400italic' rel='stylesheet' type='text/css'>
+  <script src="js/jquery-1.11.2.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Coal Fire Pizza</title>
+</head>
+<body>
+  <div class="container">
+    <div class="page-header">
+      <h1>Coal Fire Pizza <small>Pizza that's so good you can't even eat it</small></h1>
     </div>
-       <div class="col-sm-6">
-         <div class="results">
-           <h3>You chose a <span class="size"></span> inch <span class="flavor"></span> pizza.  Well done. But did you know that you will also
-             getting <strong><span class="slices">with that pie?</span></strong></h3>
-             <p>
-               Now go to locally owned pizza parlor near you and order a real pie for goodness sakes!
-             </p>
-         </div>
-       </div>
-     </div>
-   </div>
- </body>
+
+    <div class="row">
+      <div class="col-md-6">
+        <form id="pizza">
+          <h4>Let's calculate your slices, shall we?</h4>
+          <div class="form-group">
+            <label for="size" >What size of pie would you like?</label>
+            <input type="text" class="form-control" id="size" placeholder="eg. 10, 12 or 16">
+          </div>
+
+          <div class="form-group">
+            <label for="flavor">Would you like cheese or pepperoni?</label>
+            <input type="text" class="form-control" id="flavor" placeholder="eg. Cheese">
+          </div>
+
+          <button type="submit" class="btn btn-danger">&#9044 How Many Slices?</button>
+
+        </form>
+      </div>
+
+
+      <div class="col-md-6">
+        <div class="results">
+          <h3>You chose a <span class="size"></span> inch <span class="flavor"></span> pizza.  Well done. But did you know that you will also
+            be getting <strong><span class="slices"></span></strong> slices of pie?</h3>
+            <p>
+              Now go to locally owned pizza parlor near you and order a <em>real</em> pie for goodness sakes!
+            </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
 </html>
