@@ -4,7 +4,7 @@ var Pizza = {
     style: "",
     slices: function () {
         var numberSlice;
-        if ("Deep dish" === this.style) {
+        if ("Deep Dish" === this.style) {
             var numberSlice = this.size - 6;
         } else {
             var numberSlice = this.size - 4;
@@ -19,13 +19,16 @@ $(document).ready(function() {
 
    var inputtedSize = parseInt($("input#size").val());
    var inputtedFlavor = $("input#flavor").val();
-   var inputtedStyle = $('#style').val();
+   var inputtedStyle = $('#style-id').val(); //no :selected here
+      $("#style-id").change(function() {
+        inputtedStyle = $(this).val();
+      });
    var newPizza = Object.create(Pizza);
    newPizza.size = inputtedSize;
    newPizza.flavor = inputtedFlavor;
    newPizza.style = inputtedStyle;
    newPizza.slices(inputtedSize);
-debugger;
+// debugger;
 
    $("input#size").val("");
    $("input#flavor").val("");
