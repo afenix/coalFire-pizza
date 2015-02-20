@@ -8,7 +8,7 @@ Clone repository and open the coalFire-pizza.html file.
 
 ### Bug Reports:
 ```
-None known at this time.  Please contact author if you uncover any of vermon hanging out in the code: a.fenix@icloud.com
+None known at this time. Please contact author if you uncover any vermin hanging out in the code: a.fenix@icloud.com
 ```
 ### Author:
 Alister A. Fenix, 2015.
