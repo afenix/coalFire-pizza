@@ -10,19 +10,18 @@ body {
   text-align: center;
   border-radius: 15px;
   display: none;
-  background-color: #843000;
-  box-shadow: 5px 5px 2.5px #660000;
+  background-color: #990000;
+  box-shadow: 5px 5px 5px #660000;
   padding: 15px;
   opacity: 0.9;
-  float: right;
+  float: left;
 }
 
 #pizza {
   background-color: #F1980E;
-  box-shadow: 5px 5px 2.5px #660000;
+  box-shadow: 5px 5px 5px #660000;
   border: 1px solid;
   border-radius: 15px;
-  border-color: #8C873E;
   width: 700px;
   padding: 15px;
   opacity: 0.9;
@@ -44,7 +43,8 @@ h1 {
   font-family: 'Chewy', cursive;
   color: white;
   padding: 15px;
-  font-size: 500%
+  font-size: 500%;
+  text-align: center;
 }
 
 p {
